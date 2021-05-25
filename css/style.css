@@ -8,32 +8,29 @@ body {
 
 header {
     display: flex;
-    align-items: stretch;
+    align-items: center;
     justify-content: space-around;
 }
 
 .search {
-    position: static;
-    width: 752px;
+    width: 65%;
     border-width: 0;
+    border-radius: 8px;
     padding: 10px;
 
     background: rgba(255, 255, 255, 0.16);
-    border-radius: 8px;
-
     color: #98a7be;
 }
-/*
+
 .miniatura {
     border-radius: 100%;
     height: 32px;
+    margin-right: 10px;
 }
 
 .right-header {
-    width: 15%;
     display: flex;
     align-items: center; 
     justify-content: space-around;
     padding: 5px;
 }
-*/
